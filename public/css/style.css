@@ -1,0 +1,39 @@
+.jumbotron {
+  background-image: url("../images/bg.jpg");
+  background-size: cover;
+}
+.jumbotron h1 {
+  text-align: center;
+}
+.jumbotron textarea {
+  margin-bottom: 20px;
+  background: none;
+  border: 1px solid white;
+}
+.jumbotron textarea::placeholder {
+  color: #ccc;
+}
+.jumbotron textarea:focus {
+  background: none;
+  color: white;
+}
+
+button {
+  cursor: pointer;
+}
+
+.container {
+  max-width: 1140px !important;
+  padding: 0 15px 30px !important;
+}
+.container .list-group {
+  margin-bottom: 20px;
+}
+.container .list-group .list-group-item {
+  height: 64px;
+}
+
+footer p {
+  margin: 0 auto;
+  text-align: center;
+}
